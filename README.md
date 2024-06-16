@@ -17,6 +17,7 @@ This is a ROS 2 package for the sen0562 light sensor.
 sudo apt install python3-smbus
 sudo i2cdetect -y -r 1
 ```
+I2C Address: default is `0x23`.
 
 ```sh: Terminal
 colcon build --packages-select sen0562_light_ros
